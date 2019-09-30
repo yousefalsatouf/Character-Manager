@@ -1,0 +1,12 @@
+body
+{
+    background-color: #3191ea;
+}
+.container
+{
+    background-color: #fff;
+    padding: 0.5rem;
+    margin: 0.5rem auto;
+    border-radius: 2%;
+    border: 1px solid #fff;
+}
