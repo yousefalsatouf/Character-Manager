@@ -47,7 +47,8 @@ a:hover
     background-color: #ccc;
     margin: 2rem;
     padding: 1rem;
-    border-radius: 5px
+    border-radius: 5px;
+    box-shadow: 20px 15px 25px black;
 }
 .title
 {
