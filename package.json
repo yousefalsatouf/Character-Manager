@@ -1,5 +1,5 @@
 {
-  "name": "Project",
+  "name": "character-manager",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,5 +17,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousefalsatouf/Character-Manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yousefalsatouf/Character-Manager/issues"
+  },
+  "homepage": "https://github.com/yousefalsatouf/Character-Manager#readme"
 }
