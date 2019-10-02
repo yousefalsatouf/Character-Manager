@@ -109,7 +109,6 @@ ch.getAll().then(response=>{
         del.setAttribute('class', 'del');
         del.setAttribute('id', ch.id);
         del.textContent = "Delete";
-        
 
     });
 });
