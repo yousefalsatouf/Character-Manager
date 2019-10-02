@@ -14,6 +14,10 @@ header
     display: flex;
     justify-content: flex-end
 }
+.go-back
+{
+    background-color: green
+}
 h1, h2
 {
     color: #fff;
@@ -23,12 +27,9 @@ h1, h2
 {
     background-color: #fff;
     padding: 0.5rem;
-    margin: 2rem auto;
+    margin: 4rem auto;
     border-radius: 5px;
     border: 1px solid #fff;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     box-shadow: -20px -15px 25px #999;
 }
 a
@@ -40,7 +41,7 @@ a:hover
 {
     text-decoration: none;
 }
-#character
+#s-character
 {
     display: flex;
     flex-wrap: wrap;
@@ -52,35 +53,34 @@ a:hover
     box-shadow: 20px 15px 25px black;
     transition: all 0.5s;
 }
-#character:hover
+#s-character:hover, button:hover
 {
     border-radius: 0px;
     box-shadow: 10px 10px 5px gray;
-    transform: scale(1.1);
+    transform: scale(1);
      
+}
+.s-title
+{
+    text-align: center;
+}
+.s-des
+{
+    text-align: justify;
+}
+
+.btn
+{
+    display: flex;
+    justify-content: space-around;
 }
 
 button:hover
 {
     border-radius: 0px;
     box-shadow: 10px 10px 5px gray;
-    transform: scaleX(1.3);
+    transform: scale(1.1);
      
-}
-
-.title
-{
-    text-align: center;
-}
-.des
-{
-    text-align: justify;
-}
-
-.btns
-{
-    display: flex;
-    justify-content: space-around
 }
 
 button
@@ -94,11 +94,6 @@ button
     transition: 0.5s
 }
 
-.del
-{
-    background-color: red
-}
-
 img
 {
     width: 100%;
@@ -110,7 +105,6 @@ img
     justify-content: center
 }
 img:hover
-{
-    
+{   
     transform: rotate3d(30, 1, 0, 180deg);
 }
