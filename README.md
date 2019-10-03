@@ -1,3 +1,3 @@
 # Character-Manager
 
-[Go TO project](https://yousefalsatouf.github.io/Character-Manager/src/index.html)
+[Go TO project](https://characters-manager.netlify.com/index.html)
